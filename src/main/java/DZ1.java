@@ -4,10 +4,15 @@ public class DZ1 {
     public static int recursiveMethod(int a, int b) {
         if (b == 0)
             return a;
-        else
-            return recursiveMethod(b, a % b);
-    }
 
+        else if (b != 0 | a != 0) {
+            return recursiveMethod(b, a % b);
+        }
+        else if (a == 0 | b == 0) {
+            System.out.println("На ноль делить нельзя");
+        }
+        return 0;
+    }
         public static void main(String[] args) {
             int a,b, result;
             Scanner scanner = new Scanner(System.in);
