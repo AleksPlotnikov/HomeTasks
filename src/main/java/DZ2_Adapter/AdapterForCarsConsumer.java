@@ -1,4 +1,4 @@
-package DZ2;
+package DZ2_Adapter;
 
 public class AdapterForCarsConsumer extends ConsumerCars implements CarFactory{
 
