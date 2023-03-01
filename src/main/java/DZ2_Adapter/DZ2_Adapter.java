@@ -1,4 +1,4 @@
-package DZ2;
+package DZ2_Adapter;
 
 public class DZ2_Adapter {
 
